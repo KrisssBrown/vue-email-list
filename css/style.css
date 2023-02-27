@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li{
+    list-style-type: none;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 40px 10px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn{
+    padding: 15px 25px;
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    border-radius: 30px;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(52, 113, 224);
+}
+
+.mail-number{
+    padding: 10px 30px;
+
+}
+
+.list-container{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.list-container li{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    gap: 3px;
+    /* text-align: center; */
+    border: 1px solid black;
+}
