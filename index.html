@@ -17,7 +17,7 @@
                 <button class="btn" @click="displayArray">GENERA MAIL</button>
             </div>
 
-            <ul class="row container list-container">
+            <ul v-if="mail.length === (parseInt(numeroMail))" class="row container list-container">
                 <li v-for="newMail in mail">
                     <h1>
                         {{newMail}}
